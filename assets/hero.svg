@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7F9FC"/>
+      <stop offset="100%" stop-color="#EAF1FB"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <circle cx="1070" cy="60" r="150" fill="#2563EB" opacity="0.06"/>
+  <circle cx="120" cy="290" r="110" fill="#059669" opacity="0.06"/>
+
+  <!-- 左侧文字 -->
+  <text x="80" y="118" font-size="52" font-weight="700" fill="#1F2937">JSNU 通知雷达</text>
+  <rect x="80" y="140" width="72" height="5" rx="2.5" fill="#2563EB"/>
+  <text x="80" y="192" font-size="24" fill="#4B5563">每天 9 点，把三个网站的新通知送进你邮箱</text>
+  <text x="80" y="236" font-size="19" fill="#6B7280">教务处 · 信息门户 · 人工智能与计算机学院　｜　只留竞赛、考试、报名</text>
+
+  <!-- 标签 -->
+  <g font-size="16">
+    <rect x="80" y="258" width="96" height="34" rx="17" fill="#FFFFFF" stroke="#D7E1F0"/>
+    <text x="128" y="280" fill="#2563EB" text-anchor="middle">纯标准库</text>
+
+    <rect x="188" y="258" width="120" height="34" rx="17" fill="#FFFFFF" stroke="#D7E1F0"/>
+    <text x="248" y="280" fill="#059669" text-anchor="middle">无需登录</text>
+
+    <rect x="320" y="258" width="128" height="34" rx="17" fill="#FFFFFF" stroke="#D7E1F0"/>
+    <text x="384" y="280" fill="#B45309" text-anchor="middle">自动去重</text>
+  </g>
+
+  <!-- 右侧：三个站点 -> 一个信封 -->
+  <g transform="translate(760,52)">
+    <g>
+      <rect x="0" y="0" width="330" height="58" rx="10" fill="#FFFFFF" stroke="#E3E9F2"/>
+      <circle cx="32" cy="29" r="13" fill="#2563EB" opacity="0.12"/>
+      <text x="32" y="35" font-size="15" fill="#2563EB" text-anchor="middle">教务</text>
+      <text x="58" y="35" font-size="16" fill="#374151">jwc.jsnu.edu.cn</text>
+    </g>
+    <g transform="translate(0,72)">
+      <rect x="0" y="0" width="330" height="58" rx="10" fill="#FFFFFF" stroke="#E3E9F2"/>
+      <circle cx="32" cy="29" r="13" fill="#059669" opacity="0.12"/>
+      <text x="32" y="35" font-size="15" fill="#059669" text-anchor="middle">门户</text>
+      <text x="58" y="35" font-size="16" fill="#374151">www.jsnu.edu.cn</text>
+    </g>
+    <g transform="translate(0,144)">
+      <rect x="0" y="0" width="330" height="58" rx="10" fill="#FFFFFF" stroke="#E3E9F2"/>
+      <circle cx="32" cy="29" r="13" fill="#7C3AED" opacity="0.12"/>
+      <text x="32" y="35" font-size="15" fill="#7C3AED" text-anchor="middle">学院</text>
+      <text x="58" y="35" font-size="16" fill="#374151">ai.jsnu.edu.cn</text>
+    </g>
+    <path d="M345 29 C 375 29, 375 130, 345 130" stroke="#C7D2E4" stroke-width="2" fill="none"/>
+    <path d="M345 130 C 375 130, 375 173, 345 173" stroke="#C7D2E4" stroke-width="2" fill="none"/>
+    <rect x="352" y="92" width="44" height="26" rx="13" fill="#2563EB"/>
+    <text x="374" y="110" font-size="13" fill="#FFFFFF" text-anchor="middle">每日</text>
+  </g>
+</svg>
