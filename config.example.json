@@ -1,0 +1,7 @@
+{
+  "smtp_server": "smtp.qq.com",
+  "smtp_port": 465,
+  "sender": "你的QQ号@qq.com",
+  "auth_code": "QQ邮箱SMTP授权码",
+  "receiver": "你的QQ号@qq.com"
+}
