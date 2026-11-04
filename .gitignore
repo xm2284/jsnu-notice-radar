@@ -1,0 +1,18 @@
+# 个人配置与运行状态，不要提交
+config.json
+sent_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
