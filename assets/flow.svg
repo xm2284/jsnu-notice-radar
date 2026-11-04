@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif">
+  <rect width="1200" height="340" fill="#FFFFFF"/>
+
+  <text x="60" y="52" font-size="22" font-weight="700" fill="#1F2937">它每天做的事</text>
+  <rect x="60" y="66" width="52" height="4" rx="2" fill="#2563EB"/>
+
+  <!-- 节点 1：抓列表 -->
+  <g transform="translate(60,110)">
+    <rect width="190" height="120" rx="14" fill="#F7F9FC" stroke="#E3E9F2"/>
+    <circle cx="30" cy="32" r="12" fill="#2563EB" opacity="0.15"/>
+    <text x="30" y="37" font-size="14" fill="#2563EB" text-anchor="middle">1</text>
+    <text x="20" y="68" font-size="18" font-weight="600" fill="#1F2937">抓列表</text>
+    <text x="20" y="94" font-size="14" fill="#6B7280">三个站的公告栏</text>
+  </g>
+
+  <path d="M262 170 L 296 170" stroke="#C7D2E4" stroke-width="2"/>
+  <path d="M290 164 L 298 170 L 290 176" stroke="#C7D2E4" stroke-width="2" fill="none"/>
+
+  <!-- 节点 2：筛选 -->
+  <g transform="translate(310,110)">
+    <rect width="190" height="120" rx="14" fill="#F7F9FC" stroke="#E3E9F2"/>
+    <circle cx="30" cy="32" r="12" fill="#059669" opacity="0.15"/>
+    <text x="30" y="37" font-size="14" fill="#059669" text-anchor="middle">2</text>
+    <text x="20" y="68" font-size="18" font-weight="600" fill="#1F2937">关键词筛选</text>
+    <text x="20" y="94" font-size="14" fill="#6B7280">留竞赛考试，丢后勤</text>
+  </g>
+
+  <path d="M512 170 L 546 170" stroke="#C7D2E4" stroke-width="2"/>
+  <path d="M540 164 L 548 170 L 540 176" stroke="#C7D2E4" stroke-width="2" fill="none"/>
+
+  <!-- 节点 3：去重 -->
+  <g transform="translate(560,110)">
+    <rect width="190" height="120" rx="14" fill="#F7F9FC" stroke="#E3E9F2"/>
+    <circle cx="30" cy="32" r="12" fill="#B45309" opacity="0.15"/>
+    <text x="30" y="37" font-size="14" fill="#B45309" text-anchor="middle">3</text>
+    <text x="20" y="68" font-size="18" font-weight="600" fill="#1F2937">去重</text>
+    <text x="20" y="94" font-size="14" fill="#6B7280">发过的记在本地</text>
+  </g>
+
+  <path d="M762 170 L 796 170" stroke="#C7D2E4" stroke-width="2"/>
+  <path d="M790 164 L 798 170 L 790 176" stroke="#C7D2E4" stroke-width="2" fill="none"/>
+
+  <!-- 节点 4：正文摘要 -->
+  <g transform="translate(810,110)">
+    <rect width="190" height="120" rx="14" fill="#F7F9FC" stroke="#E3E9F2"/>
+    <circle cx="30" cy="32" r="12" fill="#7C3AED" opacity="0.15"/>
+    <text x="30" y="37" font-size="14" fill="#7C3AED" text-anchor="middle">4</text>
+    <text x="20" y="68" font-size="18" font-weight="600" fill="#1F2937">取正文摘要</text>
+    <text x="20" y="94" font-size="14" fill="#6B7280">前 400 字，省得点开</text>
+  </g>
+
+  <path d="M1012 170 L 1046 170" stroke="#C7D2E4" stroke-width="2"/>
+  <path d="M1040 164 L 1048 170 L 1040 176" stroke="#C7D2E4" stroke-width="2" fill="none"/>
+
+  <!-- 节点 5：发邮件 -->
+  <g transform="translate(1060,110)">
+    <rect width="80" height="120" rx="14" fill="#2563EB"/>
+    <text x="40" y="62" font-size="16" fill="#FFFFFF" text-anchor="middle">发</text>
+    <text x="40" y="88" font-size="16" fill="#FFFFFF" text-anchor="middle">邮件</text>
+  </g>
+
+  <!-- 底部注解 -->
+  <g transform="translate(60,266)">
+    <rect width="1080" height="46" rx="10" fill="#F7F9FC"/>
+    <text x="20" y="29" font-size="15" fill="#4B5563">首次运行只建基线、不推送；之后每天一次。没有新通知也发一封——不然分不清「今天真没通知」和「脚本挂了」。</text>
+  </g>
+</svg>
